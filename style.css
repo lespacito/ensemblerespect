@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&display=swap');
 
+
+a{
+	text-decoration: none;
+	color: darkgoldenrod;
+}
+
+a:hover{
+	color: #6a53d2;
+}
+
+.banner{
+	background-image: url('respect.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
 body{
 	/*background-color: #6ec7da;*/
 	background-color: #E6E6FA;
@@ -7,8 +23,15 @@ body{
 
 h1{
 	font-family: 'Pacifico', cursive;
+	text-align: center;
 }
 
 p{
 	font-family: 'Lato', sans-serif;
+}
+
+footer{
+	color: white;
+	background-color: black;
+	text-align: center;
 }
